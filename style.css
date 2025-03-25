@@ -1,0 +1,103 @@
+.color0{
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+transition: all 2s;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.inner-container{
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-gap: 4px;
+}
+button{
+    height: 60px;
+    border-radius: 100px;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container input{
+    margin-bottom: 9px;
+    grid-column: 1/5;
+    height: 77px;
+    background-color: rgb(68, 68, 68);
+    border-radius: 33px;
+    font-size: 23px;
+    color: white;
+    padding-left: 11px;
+    padding-right: 8px;
+    border: none;
+    outline: none;
+}
+.color1{
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition:all 0.8s;
+}
+.color2{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition:all 0.8s;
+}
+.color3{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition:all 0.8s;
+}
+.color4{
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition:all 0.8s;
+}
+.color5{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition:all 0.8s;
+}
+.color6{
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition:all 0.8s;
+}
+#end{
+    grid-column: 1/3;
+}
+.inner-container2{
+    background-color: black;
+    width: 295px;
+    height: 450px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow{
+    background-color: yellow;
+    color: black;
+}
+.grey{
+    background-color: rgb(97, 97, 97);
+}
+.extra{
+    background-color: rgb(43, 42, 42);
+}
+@media only screen and (max-width:500px) {
+    h1{
+        font-size: 26px;
+    }
+}
